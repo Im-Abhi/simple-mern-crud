@@ -47,6 +47,7 @@ router.post('/', (req, res) => {
       });
     })
     .catch((err) => {
+      console.log(err);
       if (err.errors) {
         if (err.errors.name) {
           res.status(400).json({ success: false, msg: err.errors.name.message });
