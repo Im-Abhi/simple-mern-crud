@@ -2,6 +2,8 @@
 
 A simple records system using MongoDB, Express.js, VITE(React.js), and Node.js with real-time Create, Read, Update, and Delete operations. REST API was implemented on the back-end. Semantic UI React was used for the UI.
 
+![image](screenshot.png)
+
 ![Node Version](https://img.shields.io/badge/node-v16.16.0-yellowgreen.svg)
 ![NPM Version](https://img.shields.io/badge/npm-v8.11.0-blue.svg)
 ![MongoDB Version](https://img.shields.io/badge/mongodb-v6-blue.svg)
@@ -42,6 +44,18 @@ MONGO_URI=mongodb://localhost/mern-crud
 
 _MONGO_URI can be either a local database url or a cloud one._
 
+For the **server**, install the dependencies once via the terminal.
+
+```bash
+yarn install
+```
+
+Run the Express _server_. It listens on port 8000.
+
+```bash
+yarn start
+```
+
 <br />
 
 For the **fornt-end**, install the dependencies once via the terminal.
@@ -66,7 +80,7 @@ View it on the browser.
 
 <br>
 
-To make a production build, simply run on _react-src_ folder via the terminal.
+To make a production build, simply run on client folder via the terminal.
 
 ```bash
 yarn build
